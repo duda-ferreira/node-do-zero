@@ -1,0 +1,35 @@
+
+
+POST http://localhost:8081/videos
+Content-Type: application/json
+Accept-Language: pt
+
+{
+    "title": "Video 02", 
+    "description": "Esse é o video 02",
+    "duration": "100"
+    
+}
+
+###
+
+GET  http://localhost:8081/videos
+
+###
+
+PUT  http://localhost:8081/videos/902bb0fb-e1f0-4b97-b63b-268f85ef977d
+Content-Type: application/json
+Accept-Language: pt
+
+{
+    "title": "Video 09", 
+    "description": "Consegui fazer essa porra",
+    "duration": "180"
+    
+}
+
+###
+
+
+DELETE  http://localhost:8081/videos/0903cea4-6c59-4be3-8b99-40c2a2d21fdb
+
